@@ -1,0 +1,44 @@
+.main-div{
+    padding: 20px 10%;
+}
+
+.main-div form input{
+    width: 100%;
+    margin-bottom: 20px;
+    border:1px solid #002f34;
+    border-radius: 4px;
+    padding: 10px;
+}
+.main-div h1{
+    margin-left: 30%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002f34;
+}
+
+.close-icon{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 30px;
+    margin-left: 90%;
+}
+
+.main-div button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 0;
+    background: #002f34;
+    color: white;
+}
+.main-div p{
+    margin-top: 20px;
+}
+.main-div span{
+    text-decoration: underline;
+    font-weight: 600;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #002f34;
+}

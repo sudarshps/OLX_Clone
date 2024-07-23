@@ -1,0 +1,30 @@
+.view-div{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.pdr1{
+    background: rgb(247, 246, 246);
+    padding: 10px;
+    border-radius: 5px;
+    height: 50%;
+    padding-top: 50px;
+}
+
+.pdr2{
+    background: rgb(247, 246, 246);
+    padding: 10px;
+    border-radius: 5px;
+    height: 50%;
+    padding-top: 50px;
+}
+
+.user-view-div{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.user-view-icon{
+    font-size: 40px;
+    margin-right: 10px;
+}

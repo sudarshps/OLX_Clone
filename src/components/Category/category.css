@@ -1,0 +1,28 @@
+.category-div{
+    width: 100%;
+    background: rgb(255, 255, 255);
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.category-drop{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.category-drop .arrow-down{
+    margin-bottom: 15px;
+}
+
+.category-list ul{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+}

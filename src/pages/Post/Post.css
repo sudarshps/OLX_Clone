@@ -1,0 +1,51 @@
+.back-btn-div{
+    padding: 20px 2%; 
+    background: rgb(244, 243, 242);
+}
+.arrow-left{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.category-div1{
+    align-items: center;
+    padding: 10px 40%;
+    justify-content: center;
+}
+
+.category-div1 h3{
+    margin-top: 30px;
+}
+
+.main-ctg-div{
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 30px 3%;
+    margin: 30px 12%;
+    margin-left: 25%;
+}
+
+
+.main-ctg-div .form-div {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.main-ctg-div .form-div input{
+    margin-bottom: 10px;
+}
+
+
+.category-list1{
+    padding: 5px;
+    width: 50%;
+}
+
+.category-list1:hover{
+    background: rgb(186, 186, 186);
+    cursor: pointer;
+    border-radius: 5px;
+}

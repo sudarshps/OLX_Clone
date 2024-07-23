@@ -1,0 +1,142 @@
+.navbar{
+    width: 100%;
+    padding: 10px ;
+    z-index: 1;
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    position: fixed;
+}
+
+.navbar img{
+    height: 50px;
+    width: 50px;
+}
+
+.search-inputs{
+    gap: 20px;
+    display: flex;
+}
+
+.search-inputs .search-inputs-left input{
+    width: 250px;
+    height: 50px;
+    border-color: black;
+    border-radius: 5px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    padding-right: 40px;
+}
+
+.input-container{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search-location-icon{
+    position: absolute;
+    left: 10px;
+    pointer-events: none;
+}
+
+.location-down-icon{
+    position: absolute;
+    left: 90%;
+}
+.search-inputs .search-inputs-right{
+    display: flex;
+}
+
+.search-inputs .search-inputs-right input{
+    display: flex;
+    width: 550px;
+    height: 50px;
+    border-radius: 5px;
+    border-color: black;
+    padding-left: 10px;
+}
+
+
+
+.search-inputs-right .search-icon-div{
+    background-color: #002f34;
+    width: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002f34;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: underline;
+
+}
+
+.search-icon{
+    font-size: 25px;
+    margin: 10px;
+}
+
+.nav-right{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-right button{
+    border-radius: 50px;
+    height: 50px;
+    width: 100px;
+    background: #ffffff;
+    border: 7px outset rgb(0, 255, 255) ;
+    cursor: pointer;
+    position: relative;
+    
+}
+
+.plus-sell{
+    font-weight: 1000;
+    font-size: 20px;
+}
+.profile-logo{
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.nav-prof{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.nav-prof .drop{
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: max-content;
+    background: #002f34;
+    padding: 18px 22px;
+    border-radius: 2px;
+    z-index: 1;
+    display: none;
+    color: #ffffff;
+}
+
+.nav-prof .drop h6{
+    margin-bottom:20px;
+}
+
+.nav-prof .drop p{
+    text-decoration: underline;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.nav-prof:hover .drop{
+    display: block;
+}

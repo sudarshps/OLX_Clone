@@ -1,0 +1,9 @@
+.contents1-div{
+    display: inline-block;
+}
+.contents1-div .action-div{
+    padding-left: 5px;
+}
+.action-div button{
+    margin-right: 10px;
+}
